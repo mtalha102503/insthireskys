@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle2, Globe, Sparkles, ImageIcon, Users } from 'luc
 import { supabase } from '@/utils/supabase';
 import SearchBox from '@/components/SearchBox';
 
-export const revalidate = false;
+export const dynamic = 'force-dynamic';
 
 export default async function InstagramLandingPage() {
   const { data: featuredJobs, error } = await supabase
