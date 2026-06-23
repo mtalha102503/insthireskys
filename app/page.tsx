@@ -31,7 +31,7 @@ export default async function InstagramLandingPage() {
         <div className="px-8 -mt-16 sm:-mt-20 relative z-10 text-center">
           <div className="w-32 h-32 sm:w-40 sm:h-40 bg-white rounded-full mx-auto p-1.5 shadow-xl mb-4 relative">
             <div className="w-full h-full relative rounded-full overflow-hidden bg-white flex items-center justify-center">
-              <Image src="/logo.png" alt="HireSkys Logo" fill className="object-contain p-2" />
+              <Image src="/logo2.png" alt="HireSkys Logo" fill className="object-contain p-2" />
             </div>
           </div>
           <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight">HireSkys</h1>
